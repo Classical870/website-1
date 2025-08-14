@@ -1,0 +1,55 @@
+
+header nav a {
+    cursor: pointer;
+}
+
+
+header nav a.active {
+    color: var(--main-color);
+    font-weight: 700;
+    border-bottom: 2px solid var(--main-color);
+    padding-bottom: 0.3rem;
+}
+
+section {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+section.active {
+    display: block;
+    opacity: 1;
+}
+
+
+.resume-btn {
+    cursor: pointer;
+}
+
+
+.resume-btn.active {
+    border-color: var(--main-color);
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+
+.resume-detail {
+    display: none;
+}
+
+ 
+
+.resume-detail.active {
+    display: block;
+}
+
+.portfolio-detail {
+    display: none;
+}
+
+
+.portfolio-detail.active {
+    display: block;
+}
